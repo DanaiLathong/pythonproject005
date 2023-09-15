@@ -1,4 +1,4 @@
-def input_valu():
+def input_value():
     num_1 = int(input("Enter Number 1 : "))
     num_2 = int(input("Enter Number 2 : "))
     num_3 = int(input("Enter Number 3 : "))
@@ -22,7 +22,7 @@ def output_5_number ( sumnumber , average_5_number):
 print ("-----------------------------------")
 print ("---- PROGRAM AVERAGE 5 NUMBER -----")
 print ("-----------------------------------")
-num_1 , num_2 , num_3 , num_4 , num_5 = input_valu()
+num_1 , num_2 , num_3 , num_4 , num_5 = input_value()
 print ("-----------------------------------")
 output_5_number ( sum_5_number ( num_1 , num_2 , num_3 , num_4 , num_5 ) , average_number ( sum_5_number ( num_1 , num_2 , num_3 , num_4 , num_5 ) ))
 print ("-----------------------------------")
