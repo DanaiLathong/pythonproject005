@@ -1,3 +1,17 @@
+#รับข้อมูลจำนวนเต็ม 5 จากจำนวนผู้ใช้ และคำนวนหาผลรวมและค่าเฉลี่ยของข้อมูลที่รับเข้ามาเป็นเท่าใด แล้วแสดงผลทางหน้าจอ
+#ขอ 4 ฟังก์ชั่น ดังนั้นหาให้ได้ 4 Feature
+#=================================
+#   Program Average 5 Number
+#=================================
+#Enter number 1 : <input>
+#Enter number 2 : <input>
+#Enter number 3 : <input>
+#Enter number 4 : <input>
+#Enter number 5 : <input>
+#=================================
+#Sum of 5 number is : <output>
+#Average of 5 number is : <output> (ขอทศนิยม 4 ตำแหน่ง)
+#=================================
 def input_value():
     num_1 = int(input("Enter Number 1 : "))
     num_2 = int(input("Enter Number 2 : "))
